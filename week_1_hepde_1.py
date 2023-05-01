@@ -1,4 +1,4 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ****Sum of Digits / Digital Root****
 
 Given `n`, take the sum of the digits of `n`. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
@@ -28,7 +28,7 @@ n san berilen, n sanyň sifrleriniň jemini tapmaly. Eger şol jemiň bahasy ýe
 ```
 
 - Solution/ Çözülişi:
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'"""""
 def digit_sum(n):
     while n >= 10:
         n = sum(int(digit) for digit in str(n))
